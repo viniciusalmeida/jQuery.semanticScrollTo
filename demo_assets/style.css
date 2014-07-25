@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Patua One', cursive;
+}
+
+h1, h2 {
+  color: #141849;
+}
+
+h1 {
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 55px;
+}
+
+p {
+  font-size: 25px;
+}
+
+  p a {
+    text-decoration: none;
+    color: #D59A10;
+  }
+
+  p a:hover {
+    text-decoration: underline;
+  }
+
+.menu {
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: #4B4D6A;
+  width: 100%;
+}
+
+  .menu li {
+    padding: 10px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+
+  .menu li:first-child {
+    margin-left: 20px;
+  }
+
+    .menu li a {
+      color: white;
+      text-decoration: none;
+      font-size: 25px;
+    }
+
+    .menu li a:hover {
+      text-decoration: underline;
+    }
+
+.top,
+.about,
+.links {
+  height: 600px;
+  text-align: center;
+  padding-top: 275px;
+}
+
+.top {
+  background: #D59A10;
+}
+
+  .top p {
+    color: white;
+  }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery.semanticScrollTo</title>
+    <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="demo_assets/style.css">
+  </head>
+  <body>
+    <ul class="menu">
+      <li><a href="#">Top</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#links">Links</a></li>
+    </ul>
+    <div class="top">
+      <h1>jQuery.semanticScrollTo</h1>
+      <p>navigate with the menu</p>
+    </div>
+    <div class="about" id="about">
+      <h2>About</h2>
+      <p>Many plugins of this type forget the semantic of anchors, breaking their functionality.</p>
+      <p>semanticScrollTo respect the semantic of anchors on link tag.</p>
+    </div>
+    <div class="links" id="links">
+      <h2>Links</h2>
+      <p><a href="https://raw.githubusercontent.com/viniciusalmeida/jQuery.semanticScrollTo/master/lib/jQuery.semanticScrollTo.js">Plugin file</a> - <a href="https://twitter.com/vimoding">@vimoding</a></p>
+    </div>
+
+    <a href="https://github.com/viniciusalmeida/jQuery.semanticScrollTo">
+      <img style="position: fixed; top: 0; right: 0; border: 0;"
+           src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"
+           alt="Fork me on GitHub">
+    </a>
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/jQuery.semanticScrollTo.js"></script>
+    <script type="text/javascript">
+      $('ul').semanticScrollTo();
+    </script>
+  </body>
+</html>
