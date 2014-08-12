@@ -4,7 +4,7 @@ Many plugins of this type forget the semantic of anchors, breaking their functio
 
 semanticScrollTo respect the semantic of anchors on link tag.
 
-See a [demo](http://viniciusalmeida.github.io/jQuery.semanticScrollTo)
+See a [demo](http://viniciusalmeida.github.io/jQuery.semanticScrollTo/demo)
 
 ### Example
 
@@ -22,10 +22,12 @@ Markup example:
 
 Starting the plugin:
 ```javascript
+$(document).semanticScrollTo();
+// or
 $('#menu').semanticScrollTo();
 ```
 
-See the [example page markup](https://github.com/viniciusalmeida/jQuery.semanticScrollTo/blob/master/index.html)
+See the [example page markup](https://github.com/viniciusalmeida/jQuery.semanticScrollTo/blob/master/demo/index.html)
 
 ### Options
 
